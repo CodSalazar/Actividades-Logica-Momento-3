@@ -34,5 +34,14 @@ public class Main{
         int velocidadActual = miCarro.consultarVelocidad();
 
         System.out.println("El carro va a: " + velocidadActual + " km/h");
+
+        Carro miCarro2 = new Carro("Mazda");
+
+        miCarro2.encender();
+        miCarro2.acelerar(70);
+        int velocidadActual2 = miCarro2.consultarVelocidad();
+
+        System.out.println("El carro va a: " + velocidadActual2 + " km/h");
+    
     }
 }
